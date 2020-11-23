@@ -1,0 +1,12 @@
+{
+    "name":"Pulakesh Dhara",
+    "Age": 26,
+    "Address":{
+        "village": "Makaramnichak", 
+        "PO": "Bankibheri", 
+        "PS": "Sabang", 
+        "Dist": "Paschim Medinipur", 
+        "PIN": 721458
+    },
+    "Job": "Software Developer"
+}

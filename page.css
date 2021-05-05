@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat"); */
+
 @import url("https://fonts.googleapis.com/css?family=Chakra+Petch:wght@300&display=swap");
 * {
     outline: none;
@@ -23,7 +25,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #1b1377;
     display: block;
     transition-duration: 0.3s;
 }
@@ -41,11 +43,11 @@ h3 {
 }
 
 .resume {
-    width: 85%;
+    width: 1200px;
     background: #073a47;
-    color: #ffffff;
+    color: #0f08f4;
     margin: 20px auto;
-    box-shadow: 10px 10px #022231;
+    box-shadow: 10px 10px #023d58;
     position: relative;
     display: flex;
 }
@@ -54,7 +56,7 @@ h3 {
 .resume .func {
     box-sizing: border-box;
     float: left;
-    background-color: #053d47
+    background-color: #2c3c46;
 }
 
 .resume .base>div,
@@ -70,12 +72,12 @@ h3 {
 .resume .base {
     width: 30%;
     padding: 30px 15px;
-    background: #1f5a5d;
-    color: #ffffff;
+    background: #d4fbf3;
+    color: #330deb;
 }
 
 .resume .base .profile {
-    background: #ee6e10;
+    background: #0a0639;
     padding: 30px 15px 40px 15px;
     margin: -30px -15px 45px -15px;
     position: relative;
@@ -85,7 +87,8 @@ h3 {
 .resume .base .profile::after {
     content: "";
     position: absolute;
-    background: #01c1fb;
+    background: #81b6d6;
+    ;
     width: 100%;
     height: 40px;
     bottom: -17px;
@@ -95,8 +98,8 @@ h3 {
 }
 
 .resume .base .profile .photo img {
-    width: 100%;
-    border-radius: 30%;
+    width: 50%;
+    border-radius: 5%;
 }
 
 .resume .base .profile .photo {
@@ -138,7 +141,7 @@ h3 {
 }
 
 .resume .base .contact div a:hover {
-    color: #e9062c;
+    color: #ff0101;
 }
 
 .resume .base .contact div a:hover span::after {
@@ -150,7 +153,7 @@ h3 {
 }
 
 .resume .base .contact div i {
-    color: #0ff;
+    color: #8000ff;
     width: 20px;
     height: 20px;
     font-size: 20px;
@@ -166,7 +169,7 @@ h3 {
 .resume .base .contact div span::after {
     content: "";
     position: absolute;
-    background: #fdd835;
+    background: #0741ee;
     height: 1px;
     width: 0;
     bottom: 0;
@@ -278,12 +281,12 @@ h3 {
 
 .resume .func .work ul li:hover span,
 .resume .func .edu ul li:hover span {
-    color: #fdd835;
+    color: #300314;
 }
 
 @-webkit-keyframes circle {
     from {
-        box-shadow: 0 0 0 0px #fdd835;
+        box-shadow: 0 0 0 0px #f00404;
     }
     to {
         box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -292,7 +295,7 @@ h3 {
 
 @keyframes circle {
     from {
-        box-shadow: 0 0 0 0px #fdd835;
+        box-shadow: 0 0 0 0px #d31204;
     }
     to {
         box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -330,7 +333,7 @@ h3 {
     width: 7px;
     height: 7px;
     border: 3px solid #ffffff;
-    background: #ffb300;
+    background: #f00;
     border-radius: 50%;
     left: 3px;
     z-index: 1;
@@ -352,21 +355,24 @@ h3 {
 
 .resume .func .work {
     width: 48%;
-    background: #1f5a5d;
+    background: #cee4e5;
     padding: 15px;
     margin: 0 4% 15px 0;
+    border-radius: 2%;
 }
 
 .resume .func .edu {
     width: 48%;
-    background: #1f5a5d;
+    background: #cee4e5;
     padding: 15px;
+    border-radius: 2%;
 }
 
 .resume .func .skills-prog {
     clear: both;
-    background: #1f5a5d;
+    background: #cee4e5;
     padding: 15px;
+    border-radius: 2%;
 }
 
 .resume .func .skills-prog ul {
@@ -381,11 +387,20 @@ h3 {
 }
 
 .resume .func .skills-prog ul li:hover {
-    color: #fdd835;
+    color: #a30505;
+}
+
+.hide {
+    display: none;
+}
+
+.resume .func .skills-prog ul li:hover .hide {
+    display: block;
+    color: linear-gradient( to right, rgba(247, 8, 3, 0.75), rgba(4, 245, 64, 0.75));
 }
 
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-    background: #fdd835;
+    background: linear-gradient( to right, rgba(247, 8, 3, 0.75), rgba(4, 245, 64, 0.75));
     box-shadow: 0 0 0 1px #fdd835;
 }
 
@@ -406,16 +421,17 @@ h3 {
     position: absolute;
     top: -1px;
     height: 4px;
-    background: #f40202;
+    background: linear-gradient( to right, rgba(145, 10, 5, 0.75), rgba(212, 238, 218, 0.75));
     box-shadow: 0 0 0 #ffb300;
     border-radius: 5px;
 }
 
 .resume .func .skills-soft {
     clear: both;
-    background: #1f5a5d;
+    background: #cee4e5;
     padding: 15px;
     margin: 15px 0 0;
+    border-radius: 2%;
 }
 
 .resume .func .skills-soft ul {
@@ -429,7 +445,7 @@ h3 {
 }
 
 .resume .func .skills-soft ul li:hover svg .cbar {
-    stroke: #fdd835;
+    stroke: #e70d0d;
     stroke-width: 4px;
 }
 
@@ -451,7 +467,7 @@ h3 {
 
 .resume .func .skills-soft ul li svg .cbar {
     stroke-width: 3px;
-    stroke: #ff000c;
+    stroke: #2e0550;
     stroke-linecap: round;
 }
 
@@ -469,9 +485,10 @@ h3 {
 }
 
 .resume .func .interests {
-    background: #1f5a5d;
+    background: #cee4e5;
     margin: 15px 0 0;
     padding: 15px;
+    border-radius: 2%;
 }
 
 .resume .func .interests-items {
@@ -498,7 +515,7 @@ h3 {
 }
 
 .resume .func .interests-items div:hover span {
-    color: #fdd835;
+    color: #c50303;
     transition-duration: 0.3s;
 }
 
@@ -507,7 +524,7 @@ h3 {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: #269ff8;
+    color: rgb(55, 4, 102);
     transition-duration: 0.3s;
 }
 
